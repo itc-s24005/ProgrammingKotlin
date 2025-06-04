@@ -5,7 +5,7 @@ open class Car(val color: String) {
 
     open fun drive(d: Double) {
         distance += d
-        println("${color}")
-        println("")
+        println("${color}の車が ${d}km走りました。")
+        println("その結果、マイレージは ${distance}キロになりました。")
     }
 }
