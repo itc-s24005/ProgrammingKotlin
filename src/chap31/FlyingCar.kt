@@ -1,7 +1,7 @@
 package chap31
 
 class FlyingCar(color: String) : Car(color), Flyable {
-    fun fly() {
+    override fun fly() {
         println("すごい！車が空を飛んでいます。")
     }
 }

@@ -1,6 +1,5 @@
 package chap31
 
-import java.awt.datatransfer.FlavorTable
 
 fun main() {
     val person = FlyingPerson("タケシ", 5)
@@ -10,5 +9,5 @@ fun main() {
 }
 
 fun makeItFly(a: Flyable) {
-    a.fry()
+    a.fly()
 }

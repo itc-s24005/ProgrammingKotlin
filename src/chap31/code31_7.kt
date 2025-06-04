@@ -4,5 +4,5 @@ class FlyingVehicle : Flyable
 
 fun main() {
     val vehicle = FlyingVehicle()
-    vehicle.fry()
+    vehicle.fly()
 }
